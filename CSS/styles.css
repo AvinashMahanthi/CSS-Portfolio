@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  margin: o;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66bfbf;
+  margin-top: 0px;
+  font-size: 560%;
+  font-family: 'Merriweather', serif;
+}
+
+h2{
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sideHeading{
+  color: #0000FF;
+}
+
+td {
+  padding:20px
+
+}
+
+.topContainer {
+  padding-top: 100px;
+  background-color: aquamarine;
+}
+
+.middleContainer {
+  background-color: #BDBBA7;
+}
+
+.BottomContainer {
+  background-color: white;
+}
+
+.AboutMe {
+  padding: 6.25rem;
+  background-color: black;
+  color: white;
+  line-height: 2;
+}
+
+.contact-me {
+  padding: 6rem;
+}
+
+.topCloud{
+  position: relative;
+  left: 18.75em;
+  height: 4.72em;
+  width: 11.25em;
+}
+
+.bottomCloud{
+  position: relative;
+  bottom: 18.75em;
+  left: 1em;
+}
+
+.mountain{
+  size: 43.75em;
+}
+
+.skill-row{
+  margin-left: 10%;
+  line-height: 2;
+}
+.typewriter h1 {
+  color: black;
+  font-family: 'Bree Serif', serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .12em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent }
+}
