@@ -32,15 +32,16 @@ td {
 
 .topContainer {
   padding-top: 100px;
-  background-color: aquamarine;
+  background-color: #008A57;
+  color: black;
 }
 
 .middleContainer {
-  background-color: #BDBBA7;
+  background-color: #413E20;
 }
 
 .BottomContainer {
-  background-color: white;
+  background-color: #000000;
 }
 
 .AboutMe {
